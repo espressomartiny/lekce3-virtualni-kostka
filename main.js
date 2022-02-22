@@ -3,7 +3,7 @@
 
 function hazej() {
   let kostka = document.querySelector("#kostka");
-  let hod = Math.floor(Math.random() * 7);
+  let hod = Math.floor(Math.random() * 6 + 1);
   let zprava = document.querySelector('#zprava');
   zprava.textContent = "Padla " + hod + ", házej znovu!"
   kostka.src = "obrazky/"+hod+".png"
