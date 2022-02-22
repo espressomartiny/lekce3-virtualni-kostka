@@ -4,7 +4,12 @@ function hazej() {
   let kostka = document.querySelector("#kostka");
   let hod = Math.floor(Math.random() * 6 + 1);
   let zprava = document.querySelector("#zprava");
+
+  if (hod > 0 && hod < 7) {
   kostka.src = "obrazky/" + hod + ".png";
+  } else {
+      console.log("Nastal neočekávavej error")
+  }
   // console.log(hod)
   if (hod < 6) {
     zprava.textContent = "Padla " + hod + ", házej znovu!";
