@@ -9,7 +9,7 @@ function hazej() {
   if (hod < 6) {
     zprava.textContent = "Padla " + hod + ", házej znovu!";
   } else {
-    zprava.textContent = "Jupí! Padla " + hod;
+    zprava.textContent = "Jupí! Padla " + hod + ". Vyhráváš dobrej pocit.";
   }
   //   if (hod === 1) {
   //     kostka.src = "obrazky/1.png";
